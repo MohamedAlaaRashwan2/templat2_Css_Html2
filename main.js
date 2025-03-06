@@ -42,11 +42,8 @@ let closeMenu = document.querySelector("#toggle-menu");
 
 
 toggleMenu.onclick = function () {
-    nav.classList.add("open");
+    nav.classList.toggle("open");
 };
 
-closeMenu.onclick = function () {
-    nav.classList.remove("open");
-};
 
 
